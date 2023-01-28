@@ -1,0 +1,157 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Extra small devices (phones, 400px and down)  */
+@media only screen and (max-width: 400px) {
+     .shop-brands .explore-now-btn {
+          padding: 8px 12px !important; 
+          border-bottom: 0 !important;
+     }
+
+     .shop-brands .explore-now-btn i {
+          left: 93% !important;
+     }
+ }
+ 
+ /* Small devices (portrait tablets and large phones, 575px and down)  */
+ @media only screen and (max-width: 575px) {
+     header .top-head-note {
+          display: none;
+     }
+
+     .delivery .container .row {
+          -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+          justify-content: center !important;
+          -webkit-box-align: start !important;
+          -ms-flex-align: start !important;
+          align-items: start !important;
+     }
+
+     .delivery .container .row .col-lg-3 .row .col-sm-2 {
+          -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+          justify-content: center !important;
+          -webkit-box-align: start !important;
+          -ms-flex-align: start !important;
+          align-items: start !important;
+          margin-bottom: 15px;
+     }
+
+     .delivery .container .row .col-lg-3 .row .col-sm-10 .delivery-txt {
+          text-align: center;
+     }
+
+     .eid-collection h1 {
+          font-size: 32px;
+     }
+
+     .eid-collection .content-bx .img-text .img-overlay-title {
+          font-size: 2rem;
+     }
+
+     .shop-brands .shop-brands-title {
+          font-size: 32px;
+     }
+
+     .our-store h2 {
+          font-size: 32px;
+     }
+ }
+ 
+ /* Small devices (portrait tablets and large phones, 599px and down)  */
+ @media only screen and (max-width: 599px) {
+     .banner .swiper-slide .banner-img-title {
+          font-size: 4rem;
+     }
+
+     .footer .form .input-wrapper {
+          max-width: 100% !important;
+     }
+
+     .footer .form .input-wrapper .input-group {
+          max-width: 100% !important;
+     }
+ }
+ 
+ /* Medium devices (landscape tablets, 767px and down)  */
+ @media only screen and (max-width: 767px) {
+     .banner .swiper {
+          height: 20rem;
+     }
+
+     .gift-card-slider .swiper .swiper-slide .div-img-slider {
+          min-height: 20rem;
+     }
+
+     .footer .coll-btn-cursor {
+          cursor: pointer;
+     }
+
+     .footer .fa-angle-down {
+          display: block;
+     }
+
+     .footer .ft-collapse-items {
+          display: none;
+     }
+ }
+ 
+ /* Large devices (laptops/desktops, 991px and down)  */
+ @media only screen and (max-width: 991px) {
+     header .top-head-section {
+          display: none;
+     }
+
+     header .container {
+          padding-left: 6px !important;
+          padding-right: 6px !important;
+     }
+
+     header .nav-bar .navbar-side-link .md-d-none {
+          display: none;
+     }
+
+     .swiper-button-next,
+     .swiper-button-prev {
+          display: none;
+     }
+
+     .swiper-pagination {
+          display: block;
+     }
+
+     .shop-brands .explore-now-btn {
+          background-color: transparent;
+          color: #222;
+          text-align: left;
+          padding: 8px 50px;
+          border: 0;
+          border-bottom: 1px solid #222;
+     }
+
+     .shop-brands .explore-now-btn i{
+          top: 13px;
+          left: 80%;
+     }
+
+     .shop-brands .explore-now-btn:hover {
+          background-color: transparent !important;
+          color: #222 !important;
+          border-bottom: 1px solid #222;
+          -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+     }
+
+     .footer .form .input-wrapper {
+          max-width: 100%;
+     }
+
+     .footer .form .input-wrapper {
+          max-width: 100%;
+     }
+}
