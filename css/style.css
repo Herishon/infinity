@@ -45,6 +45,10 @@ a {
     text-decoration: none !important;
 }
 
+.transition {
+    transition: all 0.1s ease;
+}
+
 /* --- Universal classes --- */
 .font-jost {
     font-family: var(--font-jost);
@@ -161,7 +165,7 @@ header .note-toggler .note-toggler-icon {
 /* How to order */
 header .top-head-section {
     border-bottom: 0.06rem solid #e00f0f;
-    padding: 0.5rem 0;
+    /* padding: 0.5rem 0; */
 }
 
 header .top-head-section .how-to-order {
@@ -178,26 +182,31 @@ header .top-head-section .dropdown {
     transition: all 0.5s ease;
 }
 
-header .top-head-section .dropdown_currency #drop_btn {
+header .top-head-section .dropdown_currency .drop_btn {
     background-color: transparent;
     color: var(--color-e);
     font-size: 0.8rem;
     font-weight: 600;
     display: inline-block;
-    padding: 0.18rem 0.75rem;
+    padding: 1rem 0.75rem;
     border: none;
     outline: 0;
     cursor: pointer;
 }
 
-header .top-head-section .dropdown_currency #drop_menu {
+header .top-head-section .dropdown_currency .dropdown_content {
     display: none;
     position: absolute;
-    top: 2.2rem;
+    top: 3.2rem;
     background-color: var(--color-b);
     min-width: 5.62rem;
     box-shadow: 0 0.25rem 0.81rem 0 rgba(0,0,0,0.2);
     z-index: 10;
+}
+
+header .top-head-section .dropdown:hover .dropdown_content {
+    display: block;
+   
 }
 
 header .top-head-section .dropdown_currency .dropdown_content a {
@@ -946,8 +955,9 @@ header .nav-bar .navbar-side-link .cart-counter {
 }
 
 .footer .ft-collapse-items {
-    /* border-bottom: 1px solid #333; */
-    transition: all 0.5s ease;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: all 0.3s ease;
 }
 
 .footer .social-icons a {
@@ -1006,3 +1016,5 @@ header .nav-bar .navbar-side-link .cart-counter {
     font-size: 0.85rem;
     color: var(--color-g);
 }
+
+

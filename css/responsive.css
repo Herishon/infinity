@@ -88,6 +88,10 @@
           min-height: 20rem;
      }
 
+     .footer .collapse-wrapper {
+          border-bottom: 1px solid #444;
+     }
+
      .footer .coll-btn-cursor {
           cursor: pointer;
      }
@@ -96,8 +100,15 @@
           display: block;
      }
 
-     .footer .ft-collapse-items {
-          display: none;
+     .ft-collapse-items {
+          height: 0;
+          opacity: 0;
+     }
+
+     .show-coll {
+          height: auto;
+          opacity: 1;
+          margin-bottom: 8px;
      }
  }
  
